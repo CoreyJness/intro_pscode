@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+//Counter 
+    Count each number scanned
+        Start = 0
+        Each scan = [previous scan + 1]
+        
+//Create display
+    Print = number scan x 2
+            If number scan is less than 50, loop
+

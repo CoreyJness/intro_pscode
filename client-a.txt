@@ -2,3 +2,44 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+//Create UI 
+    Button to initialize:  Choose Number 1-10
+    Output display 
+    Number input section
+
+
+//Random Choice Generator
+    Choose random integer (1-10)
+    
+//Game functions
+    Ask for input:  What number do you think I chose?
+    
+    Player input number
+        If correct, display:  You win!
+            Delay 10 seconds
+            Loop game from beginning
+        If incorrect display:  Not even close!  Try again!
+            Delay 10 seconds
+    
+    Delay 10 seconds
+    
+    Ask for input:  What number do you think I chose?
+    
+    Player input number
+        If correct, display:  You win! 
+            Delay 10 seconds
+            Loop game from beginning
+        If incorrect display:  Not even close!  One more chance!
+                Delay 10 seconds
+    
+    Ask for input:  What number do you think I chose?
+    
+    Delay 10 seconds
+    
+    Player input number
+        If correct, display:  You win!
+            Delay 10 seconds
+            Loop game from beginning
+        If incorrect display:  Not even close!  Loser!  
+            Delay 10 seconds
+            Loop game from beginning      

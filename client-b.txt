@@ -1,4 +1,32 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+//Create Database
+    Discuss current cataloging system with Client
+    Create database of warehouse materials with location labels
 
+//Assigning location to variables
+    Using the customers predetermined setup to begin catalogue
+        Input customer information for variables: Zone 1-9, Aisle 1-9, Bay 1-9, Rack 1-9, Shelf Level 1-9, Position 1-9
+        111111 begins at the southeast corner of the warehouse
+        999999 finishes at the northwest corner of the warehouse
+
+//Compass Using Raspberri Pi 
+    Create compass program for MPU9250 sensor
+        xdegree by y degree = north
+        x1degree by y1 degree = south
+        x2degree by y2 degree = east
+        x3degree by y3 degree = west
+    
+
+//Query UI 
+    Create UI to input location 
+    Compass widget to show direction
+
+//Walking program:
+    Input location label 
+    List Range 111111-999999
+    Highlight location input
+        Create grid
+            If number is east or west of location only show east or west direction first (cannot walk between aisles)
+            If number is north or south, show if and only if east or west location has been satisfied
